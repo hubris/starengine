@@ -4,3 +4,6 @@
 [submodule "starinput"]
 	path = starinput
 	url = ssh://earth/home/gandalf/code/GITREPOS/starinput.git
+[submodule "stargraphics"]
+	path = stargraphics
+	url = ssh://earth/home/gandalf/code/GITREPOS/stargraphics.git
