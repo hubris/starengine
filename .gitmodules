@@ -1,3 +1,6 @@
 [submodule "starmath"]
 	path = starmath
 	url = ssh://earth/home/gandalf/code/GITREPOS/starmath.git
+[submodule "starinput"]
+	path = starinput
+	url = ssh://earth/home/gandalf/code/GITREPOS/starinput.git
