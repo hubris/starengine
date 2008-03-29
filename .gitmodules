@@ -7,3 +7,6 @@
 [submodule "stargraphics"]
 	path = stargraphics
 	url = ssh://earth/home/gandalf/code/GITREPOS/stargraphics.git
+[submodule "starutils"]
+	path = starutils
+	url = ssh://earth/home/gandalf/code/GITREPOS/starutils.git
