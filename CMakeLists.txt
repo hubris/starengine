@@ -23,6 +23,7 @@ include_directories(starmath/include starutils/include starinput/include
 
 add_subdirectory(starmath)
 add_subdirectory(starinput)
+add_subdirectory(stargraphics)
 
 #if (DOXYGEN_FOUND)
 #  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
