@@ -1,6 +1,8 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
 
+#include <iostream>
+
 namespace Star
 {
   template <typename T>
