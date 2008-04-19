@@ -21,6 +21,10 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/lib)
 include_directories(starmath/include starutils/include starinput/include
                     stargraphics/include)
 
+if(CMAKE_COMPILER_IS_GNUCXX)
+  add_definitions(-Wall)
+endif(CMAKE_COMPILER_IS_GNUCXX)
+
 add_subdirectory(starmath)
 add_subdirectory(starinput)
 add_subdirectory(stargraphics)
