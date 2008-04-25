@@ -1,12 +1,12 @@
 [submodule "starmath"]
 	path = starmath
-	url = ssh://earth/home/gandalf/code/GITREPOS/starmath.git
+	url = git@github.com:hubris/starmath.git
 [submodule "starinput"]
 	path = starinput
-	url = ssh://earth/home/gandalf/code/GITREPOS/starinput.git
+	url = git@github.com:hubris/starinput.git
 [submodule "stargraphics"]
 	path = stargraphics
-	url = ssh://earth/home/gandalf/code/GITREPOS/stargraphics.git
+	url = git@github.com:hubris/stargraphics.git
 [submodule "starutils"]
 	path = starutils
-	url = ssh://earth/home/gandalf/code/GITREPOS/starutils.git
+	url = git@github.com:hubris/starutils.git
