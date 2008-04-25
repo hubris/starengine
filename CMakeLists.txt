@@ -14,6 +14,10 @@ Remove the CMakeCache.txt file and try again from another folder, e.g.:
 ")
 endif(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 
+if(WIN32)
+ # add_definitions(/NODEFAULTLIB)
+endif(WIN32)
+
 include(FindDoxygen)
 
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/lib)
@@ -24,6 +28,8 @@ include_directories(starmath/include starutils/include starinput/include
 if(CMAKE_COMPILER_IS_GNUCXX)
   add_definitions(-Wall)
 endif(CMAKE_COMPILER_IS_GNUCXX)
+
+find_package(SDL REQUIRED)
 
 add_subdirectory(starmath)
 add_subdirectory(starinput)
