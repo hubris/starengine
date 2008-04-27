@@ -15,8 +15,12 @@ Remove the CMakeCache.txt file and try again from another folder, e.g.:
 endif(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 
 if(WIN32)
+  set(D3D10_LIB d3d10 dxgi)
+  include_directories($ENV{DXSDK_DIR}/Include)
+  link_directories($ENV{DXSDK_DIR}/Lib)
+
   add_definitions(/DNOMINMAX)
-  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /subsystem:windows")
+  #set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /subsystem:windows")
 endif(WIN32)
 
 include(FindDoxygen)
