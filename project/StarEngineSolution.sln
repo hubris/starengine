@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarUtils", "starutils\src\StarUtils.vcproj", "{AD1D25CC-1025-4C43-BA17-1A78C16438BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarMath", "starmath\src\StarMath.vcproj", "{9BA91F13-ED90-4E7D-B370-77C165BD5440}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarInput", "starinput\src\StarInput.vcproj", "{77D769FF-2279-47C8-94E4-F0BB101B09AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarGraphics", "stargraphics\src\StarGraphics.vcproj", "{343D8781-F616-487C-BED0-8AA08E590B86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4756C511-F93B-4DCF-ACDA-7FC66060D9D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleEventDX10", "stargraphics\tests\simpleEventDX10\simpleEventDX10.vcproj", "{7F420EBD-6E74-4932-8C50-13187440CD06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleEvent", "stargraphics\tests\simpleEvent\simpleEvent.vcproj", "{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emptyApp", "stargraphics\tests\emptyApp\emptyApp.vcproj", "{1A25B461-834D-4EFE-8074-CF783E44C665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1D25CC-1025-4C43-BA17-1A78C16438BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD1D25CC-1025-4C43-BA17-1A78C16438BF}.Debug|Win32.Build.0 = Debug|Win32
+		{AD1D25CC-1025-4C43-BA17-1A78C16438BF}.Release|Win32.ActiveCfg = Release|Win32
+		{AD1D25CC-1025-4C43-BA17-1A78C16438BF}.Release|Win32.Build.0 = Release|Win32
+		{9BA91F13-ED90-4E7D-B370-77C165BD5440}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BA91F13-ED90-4E7D-B370-77C165BD5440}.Debug|Win32.Build.0 = Debug|Win32
+		{9BA91F13-ED90-4E7D-B370-77C165BD5440}.Release|Win32.ActiveCfg = Release|Win32
+		{9BA91F13-ED90-4E7D-B370-77C165BD5440}.Release|Win32.Build.0 = Release|Win32
+		{77D769FF-2279-47C8-94E4-F0BB101B09AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77D769FF-2279-47C8-94E4-F0BB101B09AD}.Debug|Win32.Build.0 = Debug|Win32
+		{77D769FF-2279-47C8-94E4-F0BB101B09AD}.Release|Win32.ActiveCfg = Release|Win32
+		{77D769FF-2279-47C8-94E4-F0BB101B09AD}.Release|Win32.Build.0 = Release|Win32
+		{343D8781-F616-487C-BED0-8AA08E590B86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{343D8781-F616-487C-BED0-8AA08E590B86}.Debug|Win32.Build.0 = Debug|Win32
+		{343D8781-F616-487C-BED0-8AA08E590B86}.Release|Win32.ActiveCfg = Release|Win32
+		{343D8781-F616-487C-BED0-8AA08E590B86}.Release|Win32.Build.0 = Release|Win32
+		{7F420EBD-6E74-4932-8C50-13187440CD06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F420EBD-6E74-4932-8C50-13187440CD06}.Debug|Win32.Build.0 = Debug|Win32
+		{7F420EBD-6E74-4932-8C50-13187440CD06}.Release|Win32.ActiveCfg = Release|Win32
+		{7F420EBD-6E74-4932-8C50-13187440CD06}.Release|Win32.Build.0 = Release|Win32
+		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F}.Debug|Win32.Build.0 = Debug|Win32
+		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F}.Release|Win32.ActiveCfg = Release|Win32
+		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F}.Release|Win32.Build.0 = Release|Win32
+		{1A25B461-834D-4EFE-8074-CF783E44C665}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A25B461-834D-4EFE-8074-CF783E44C665}.Debug|Win32.Build.0 = Debug|Win32
+		{1A25B461-834D-4EFE-8074-CF783E44C665}.Release|Win32.ActiveCfg = Release|Win32
+		{1A25B461-834D-4EFE-8074-CF783E44C665}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F420EBD-6E74-4932-8C50-13187440CD06} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
+		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
+		{1A25B461-834D-4EFE-8074-CF783E44C665} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
+	EndGlobalSection
+EndGlobal
