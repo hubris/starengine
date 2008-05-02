@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleEvent", "stargraphics
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emptyApp", "stargraphics\tests\emptyApp\emptyApp.vcproj", "{1A25B461-834D-4EFE-8074-CF783E44C665}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleTrackballDX10", "stargraphics\tests\simpleTrackballDX10\simpleTrackballDX10.vcproj", "{E40A770E-8551-49F2-B534-5ADBBEF1B58A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -50,6 +52,10 @@ Global
 		{1A25B461-834D-4EFE-8074-CF783E44C665}.Debug|Win32.Build.0 = Debug|Win32
 		{1A25B461-834D-4EFE-8074-CF783E44C665}.Release|Win32.ActiveCfg = Release|Win32
 		{1A25B461-834D-4EFE-8074-CF783E44C665}.Release|Win32.Build.0 = Release|Win32
+		{E40A770E-8551-49F2-B534-5ADBBEF1B58A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E40A770E-8551-49F2-B534-5ADBBEF1B58A}.Debug|Win32.Build.0 = Debug|Win32
+		{E40A770E-8551-49F2-B534-5ADBBEF1B58A}.Release|Win32.ActiveCfg = Release|Win32
+		{E40A770E-8551-49F2-B534-5ADBBEF1B58A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +64,6 @@ Global
 		{7F420EBD-6E74-4932-8C50-13187440CD06} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
 		{761AC70A-2FED-40B9-BB38-CBEF8D50FF4F} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
 		{1A25B461-834D-4EFE-8074-CF783E44C665} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
+		{E40A770E-8551-49F2-B534-5ADBBEF1B58A} = {4756C511-F93B-4DCF-ACDA-7FC66060D9D9}
 	EndGlobalSection
 EndGlobal
